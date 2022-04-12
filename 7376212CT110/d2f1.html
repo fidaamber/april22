@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+    body{
+        background-color: aqua;
+    }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="orange.jpg" alt="Orange" style="width:100%" height="200px">
+  </div>
+  <div class="column">
+    <img src="apple.jpg" alt="apple" style="width:100%" height="200px">
+  </div>
+  <div class="column">
+    <img src="strawberry.jpg" alt="Strawberry" style="width:100%" height="200px">
+  </div>
+  <div class="column">
+    <img src="dragon fruit.jpg" alt="dragon fruit" style="width:100%" height="200px">
+  </div>
+</div>
+
+</body>
+</html>
